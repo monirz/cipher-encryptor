@@ -14,7 +14,9 @@ Build the cipher.go file
 
 Run the command 
 
-```./cipher hello.txt e
+```
+  ./cipher hello.txt e
+
 ```
 
 Or build the binary file by running `go install`, If your bin path is imported to gopath then  you could just go to any folder
