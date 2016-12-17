@@ -29,7 +29,9 @@ and type
 where hello.txt is your text file and `e/d` for encryption/decryption
 Then it will ask for a key, enter your key you are done. 
 
-If encryption is successful a file named encrypt.txt file will be created in the same directory with encrypted content. 
+If encryption is successful a file named encrypt.txt file will be created in the same directory with encrypted content or for decryption a file named decrypt.txt wil be created
+
+Not yet user friendly, it'll be updated :)
 
 
 
