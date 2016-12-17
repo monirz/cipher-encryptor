@@ -6,16 +6,26 @@ Just wrote this for experiment and learning encryption, yet it could be useful t
 used to save it as plain text. 
 
 In plain Caesar Cipher algorithm the text "hello world" with key 3 would look like "khoor zruog", we all know which is kind of guessable 
-The algorithm I've come out so far the text "hello world" with key 3 will look like `d`fegvmdf_V` 
+The algorithm I've come out so far the text "hello world" with key 3 will look like ` d`fegvmdf_V ` 
 
-**Usage 
+* Usage *
 
 Build the cipher.go file 
 
 Run the command 
-`./cipher hello.txt d`
-where hello.txt is your text file and e/d for encryption/decryption
-Then it will ask for a key, enter your key you are done 
+
+```./cipher hello.txt e
+```
+
+Or build the binary file by running `go install`, If your bin path is imported to gopath then  you could just go to any folder
+and type 
+
+ ``` 
+ cipher hello.txt e
+ ``` 
+
+where hello.txt is your text file and `e/d` for encryption/decryption
+Then it will ask for a key, enter your key you are done. 
 
 
 
